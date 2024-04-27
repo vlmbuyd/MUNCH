@@ -71,19 +71,22 @@ header {
 }
 
 .lookingfor,
-.similar-user {
+.similar-user,
+.surrounding {
   padding-left: 20px;
   margin-bottom: 28px;
 }
 
 .lookingfor-title,
-.similar-user-title {
+.similar-user-title,
+.surrounding-title {
   margin-bottom: 5px;
   font-weight: 300;
 }
 
 .lookingfor-keyword,
-.similar-user-keyword {
+.similar-user-keyword,
+.surrounding-keyword {
   margin-bottom: 18px;
 }
 
@@ -110,7 +113,8 @@ header {
 }
 
 .lookingfor-image,
-.similar-user-image {
+.similar-user-image,
+.surrounding-image {
   display: flex;
 }
 
@@ -178,7 +182,7 @@ header {
   align-items: flex-end;
   position: absolute;
   left: 8px;
-  bottom: 15px;
+  bottom: 10px;
 }
 
 .restaurant-name {
@@ -240,4 +244,103 @@ header {
       rgba(37, 37, 37, 0.95) 100%
     ),
     url("./assets/images/restaurant3.png");
+}
+
+.ansan {
+  width: 50px;
+  height: 36px;
+}
+
+.restaurant {
+  width: 77px;
+  height: 36px;
+}
+
+.restaurant7 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("./assets/images/restaurant7.png");
+}
+
+.restaurant8 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("./assets/images/restaurant8.png");
+}
+
+.restaurant9 {
+  width: 20px;
+  height: 134px;
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("./assets/images/restaurant9.png");
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 375px;
+  height: 89px;
+  background-color: black;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 14px;
+}
+
+.home,
+.map,
+.search,
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container img {
+  margin-bottom: 5px;
+}
+
+.map img {
+  width: 23px;
+  height: 20px;
+}
+
+.search img {
+  width: 21px;
+  height: 21px;
+}
+
+.profile img {
+  width: 27px;
+  height: 27px;
+}
+
+.home-indicator img {
+  display: block;
+  width: 134px;
+  height: 5px;
+  margin: 0 auto 10px auto;
+}
+
+.inactive {
+  opacity: 0.8;
 }
