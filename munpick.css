@@ -246,6 +246,11 @@ header {
     url("./assets/images/restaurant3.png");
 }
 
+.surrounding {
+  padding-bottom: 89px;
+  background-color: black;
+}
+
 .ansan {
   width: 50px;
   height: 36px;
