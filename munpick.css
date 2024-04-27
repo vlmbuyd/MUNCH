@@ -45,7 +45,22 @@ body {
   right: 20px;
 }
 
-.munpick,
-.home-page {
+header {
+  margin-bottom: 36px;
+}
+
+.mun-pick,
+.following {
   color: white;
+}
+
+.mun-pick {
+  display: inline-block;
+  padding-bottom: 5px;
+  margin: 0 20px 0 26px;
+  border-bottom: 3px solid white;
+}
+
+.following {
+  opacity: 0.5;
 }
