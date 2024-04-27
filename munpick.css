@@ -3,17 +3,25 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "Apple SD Gothic";
+  src: url("./assets/fonts/AppleSDGothicNeoM.ttf") format("truetype");
+}
+
+body {
+  font-family: "Apple SD Gothic";
+}
+
 .home-page {
   width: 100%;
   height: 100vh;
   background-color: black;
 }
 
-.status-bar {
+.status {
   height: 44px;
   display: flex;
-  /* justify-content: space-around; */
-  /* align-items: center; */
+  margin-bottom: 15px;
   color: white;
 }
 
@@ -35,4 +43,9 @@
   position: absolute;
   top: 11px;
   right: 20px;
+}
+
+.munpick,
+.home-page {
+  color: white;
 }
