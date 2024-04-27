@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Apple SD Gothic";
+  src: url("./assets/fonts/AppleSDGothicNeoM.ttf") format("truetype");
+  src: url("./assets/fonts/AppleSDGothicNeoL.ttf") format(("trutype"));
+  src: url("./assets/fonts/AppleSDGothicNeoB.ttf") format(("trutype"));
+}
+
+body {
+  font-family: "Apple SD Gothic";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.status {
+  height: 44px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.time {
+  margin-left: 19px;
+  margin-top: 7px;
+}
+
+.notch {
+  display: inline-block;
+  position: absolute;
+  width: 156px;
+  height: 33px;
+  top: 0;
+  left: 109px;
+}
+
+.right-side {
+  position: absolute;
+  top: 11px;
+  right: 20px;
+}
+
+header {
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.mun-pick {
+  display: inline-block;
+  padding-bottom: 5px;
+  margin: 0 20px 0 26px;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 375px;
+  height: 89px;
+  background-color: black;
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 14px;
+}
+
+.home,
+.map,
+.search,
+.profile {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container img {
+  margin-bottom: 5px;
+}
+
+.map img {
+  width: 23px;
+  height: 20px;
+}
+
+.search img {
+  width: 21px;
+  height: 21px;
+}
+
+.profile img {
+  width: 27px;
+  height: 27px;
+}
+
+.home-indicator {
+  margin: 0 auto 10px auto;
+}
+
+.home-indicator img {
+  display: block;
+  width: 134px;
+  height: 5px;
+}
+
+nav span {
+  font-size: 12px;
+}
+
+.nav-inactive {
+  opacity: 0.8;
+}
