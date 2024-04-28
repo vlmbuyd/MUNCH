@@ -17,10 +17,6 @@ AI를 활용하여 사용자 개인의 입맛 취향에 맞는 음식점을 큐�
 
 ## 페이지 소개
 
-### 스플레쉬
-![스플래쉬](https://github.com/vlmbuyd/MUNCH/assets/157789110/4e074ae8-ea82-4c48-89be-f28c9158621a)
-![스플래쉬2](https://github.com/vlmbuyd/MUNCH/assets/157789110/142a8e25-0730-4345-8928-a7c3447e5954)
-
 ### 온보딩
 ![온보딩](https://github.com/vlmbuyd/MUNCH/assets/157789110/76801f89-6fcb-4d3d-bd2b-d9d129e9790a)
 ![온보딩2](https://github.com/vlmbuyd/MUNCH/assets/157789110/758ba28a-7288-49bb-9f54-e16d4f5ca2ac)
