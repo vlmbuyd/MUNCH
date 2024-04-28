@@ -59,13 +59,10 @@
 
 .restaurant1,
 .restaurant2,
-.restaurant3,
 .restaurant4,
 .restaurant5,
-.restaurant6,
 .restaurant7,
-.restaurant8,
-.restaurant9 {
+.restaurant8 {
   position: relative;
   margin-right: 9px;
 }
