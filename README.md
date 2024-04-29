@@ -26,7 +26,7 @@ AI를 활용하여 사용자의 개인적인 입맛 취향에 맞는 음식점 �
 
 ### 온보딩
 ![온보딩](https://github.com/vlmbuyd/MUNCH/assets/157789110/9ccb74b1-cbdc-45fa-9f5e-262f5e1b5f65)
-![온보딩-2](https://github.com/vlmbuyd/MUNCH/assets/157789110/89ace376-7b4e-4593-b4d5-f2e40021744a)
+![온보딩-2](https://github.com/vlmbuyd/MUNCH/assets/157789110/dc80c2c8-e799-4e3e-b849-82bf26f98233)
 
 ### 홈
 ![큐레이션](https://github.com/vlmbuyd/MUNCH/assets/157789110/9298591c-2182-405b-b45c-1d8aaf35fff3)
