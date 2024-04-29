@@ -57,13 +57,17 @@ body {
   color: grey; /* 텍스트 색상을 흰색으로 설정합니다. */
 }
 
+.lookingfor-title {
+  margin-bottom: 7px;
+}
+
 .lookingfor-keyword {
   font-size: 13px;
   margin-top: 15px; /* 텍스트를 아래로 10px만큼 내립니다. */
 }
 
 .rectangle1 {
-  width: 110px;
+  width: 101px;
   height: 25px;
   background-color: rgb(73, 73, 73); /* 회색 */
   border-top-right-radius: 20px; /* 오른쪽 상단 모서리를 둥글게 만듭니다. */
@@ -71,10 +75,19 @@ body {
   margin-top: 10px;
 }
 
-.text2 {
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8 {
   color: white;
   font-size: 12px;
   padding-left: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end; */
 }
 
 .rectangle2 {
@@ -86,12 +99,6 @@ body {
   margin-top: -25px;
 }
 
-.text3 {
-  color: white;
-  font-size: 12px;
-  padding-left: 12px;
-}
-
 .rectangle3 {
   width: 60px;
   height: 25px;
@@ -99,12 +106,6 @@ body {
   border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
   margin-left: 190px;
   margin-top: -25px;
-}
-
-.text4 {
-  color: white;
-  font-size: 12px;
-  padding-left: 12px;
 }
 
 .rectangle4 {
@@ -116,12 +117,6 @@ body {
   margin-top: -25px;
 }
 
-.text5 {
-  color: white;
-  font-size: 12px;
-  padding-left: 12px;
-}
-
 .rectangle5 {
   width: 60px;
   height: 25px;
@@ -129,12 +124,6 @@ body {
   border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
   margin-left: 60px;
   margin-top: 10px;
-}
-
-.text6 {
-  color: white;
-  font-size: 12px;
-  padding-left: 12px;
 }
 
 .rectangle6 {
@@ -146,12 +135,6 @@ body {
   margin-top: -25px;
 }
 
-.text7 {
-  color: white;
-  font-size: 12px;
-  padding-left: 12px;
-}
-
 .rectangle7 {
   width: 100px;
   height: 25px;
@@ -159,12 +142,6 @@ body {
   border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
   margin-left: 195px;
   margin-top: -25px;
-}
-
-.text8 {
-  color: white;
-  font-size: 12px;
-  padding-left: 12px;
 }
 
 .rectanglea1 {
