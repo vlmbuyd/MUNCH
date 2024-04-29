@@ -1,0 +1,230 @@
+#home-page {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.mun-pick {
+  border-bottom: 3px solid white;
+}
+
+.lookingfor,
+.similar-user,
+.surrounding {
+  padding-left: 20px;
+  margin-bottom: 28px;
+}
+
+.lookingfor-title,
+.similar-user-title,
+.surrounding-title {
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.lookingfor-keyword,
+.similar-user-keyword,
+.surrounding-keyword {
+  margin-bottom: 18px;
+}
+
+.keyword {
+  display: inline-block;
+  border: 1px solid #d53740;
+  color: #d53740;
+}
+
+.rect {
+  width: 143px;
+  height: 36px;
+  padding: 7px 13px 7px 8px;
+  border-radius: 0 50px 50px 0;
+  font-size: 13x;
+}
+
+.round {
+  width: 49px;
+  height: 36px;
+  padding: 7px 11px 7px 10px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.lookingfor-image,
+.similar-user-image,
+.surrounding-image {
+  display: flex;
+}
+
+.restaurant1,
+.restaurant2,
+.restaurant4,
+.restaurant5,
+.restaurant7,
+.restaurant8 {
+  position: relative;
+  margin-right: 9px;
+}
+
+.restaurant1,
+.restaurant2,
+.restaurant4,
+.restaurant5,
+.restaurant7,
+.restaurant8 {
+  width: 159px;
+  height: 134px;
+}
+
+.restaurant1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant1.png");
+}
+
+.restaurant2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant2.png");
+}
+
+.restaurant3 {
+  width: 20px;
+  height: 134px;
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant3.png");
+}
+
+.watching-now {
+  width: 110px;
+}
+
+.info {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  left: 8px;
+  bottom: 10px;
+}
+
+.restaurant-name {
+  margin-right: 6px;
+  font-size: 15px;
+}
+
+.distance {
+  font-size: 11px;
+  font-weight: 200;
+  opacity: 0.7;
+}
+
+.rate {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 25px;
+  height: 25px;
+  padding: 4px 4px 4px 3px;
+  background-color: #d53740;
+  border-radius: 50px;
+  font-size: 13px;
+}
+
+.jong-ro {
+  bottom: 15px;
+  left: 80px;
+}
+
+.restaurant4 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant4.png");
+}
+
+.restaurant5 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant5.png");
+}
+
+.restaurant6 {
+  width: 20px;
+  height: 134px;
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant6.png");
+}
+
+.surrounding {
+  padding-bottom: 89px;
+  background-color: black;
+}
+
+.ansan {
+  width: 52px;
+  height: 36px;
+}
+
+.restaurant {
+  width: 77px;
+  height: 36px;
+}
+
+.restaurant7 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant7.png");
+}
+
+.restaurant8 {
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant8.png");
+}
+
+.restaurant9 {
+  width: 20px;
+  height: 134px;
+  background: linear-gradient(
+      to bottom,
+      rgba(37, 37, 37, 0) 50%,
+      rgba(37, 37, 37, 0.75) 75%,
+      rgba(37, 37, 37, 0.95) 100%
+    ),
+    url("/assets/images/restaurant9.png");
+}

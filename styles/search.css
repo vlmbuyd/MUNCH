@@ -1,0 +1,271 @@
+body {
+  background-color: black;
+  overflow: auto; /* 내용이 넘치면 스크롤 생성 */
+}
+
+#search-page {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  margin-left: 20px; /* 시간과 이미지 사이 간격 조정 */
+  margin-right: 30px; /* 시간과 이미지 사이 간격 조정 */
+}
+
+.notch {
+  margin-right: 10px; /* 시간과 이미지 사이 간격 조정 */
+}
+
+.right-side {
+  margin-left: auto; /* 우측 이미지들을 가장 오른쪽으로 이동 */
+}
+
+.right-side img {
+  margin-left: 5px; /* 우측 이미지들 사이 간격 조정 */
+}
+
+.lookingfor {
+  padding-left: 10px;
+  padding-top: 12px;
+}
+
+.rounded-rectangle {
+  width: 340px;
+  height: 40px;
+  background-color: rgb(43, 43, 43);
+  border-radius: 5px; /* 원하는 둥근 정도에 따라 조절하세요 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* 그림자 효과 추가 */
+}
+
+.searchimage {
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.text {
+  padding-left: 45px;
+  margin-top: -25px;
+
+  color: grey; /* 텍스트 색상을 흰색으로 설정합니다. */
+}
+
+.lookingfor-title {
+  margin-bottom: 7px;
+}
+
+.lookingfor-keyword {
+  font-size: 13px;
+  margin-top: 15px; /* 텍스트를 아래로 10px만큼 내립니다. */
+}
+
+.rectangle1 {
+  width: 101px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-top-right-radius: 20px; /* 오른쪽 상단 모서리를 둥글게 만듭니다. */
+  border-bottom-right-radius: 20px; /* 오른쪽 하단 모서리를 둥글게 만듭니다. */
+  margin-top: 10px;
+}
+
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8 {
+  color: white;
+  font-size: 12px;
+  padding-left: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-end; */
+}
+
+.rectangle2 {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 125px;
+  margin-top: -25px;
+}
+
+.rectangle3 {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 190px;
+  margin-top: -25px;
+}
+
+.rectangle4 {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 255px;
+  margin-top: -25px;
+}
+
+.rectangle5 {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.rectangle6 {
+  width: 60px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 125px;
+  margin-top: -25px;
+}
+
+.rectangle7 {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(73, 73, 73); /* 회색 */
+  border-radius: 20px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 195px;
+  margin-top: -25px;
+}
+
+.rectanglea1 {
+  width: 340px;
+  height: 102px;
+  background-color: rgb(255, 150, 150); /* 빨간색 */
+  border-radius: 5px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.texta1 {
+  color: rgb(241, 95, 95);
+  font-size: 20px;
+  padding-left: 12px;
+  display: inline-block; /* 인라인 요소를 블록 요소로 변경합니다. */
+  margin-top: 10px; /* 텍스트를 아래로 10px 이동합니다. */
+}
+.rectanglea2 {
+  width: 340px;
+  height: 102px;
+  background-color: rgb(255, 150, 150); /* 빨간색 */
+  border-radius: 5px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.texta2 {
+  color: rgb(241, 95, 95);
+  font-size: 20px;
+  padding-left: 12px;
+  display: inline-block; /* 인라인 요소를 블록 요소로 변경합니다. */
+  margin-top: 10px; /* 텍스트를 아래로 10px 이동합니다. */
+}
+
+.rectanglea3 {
+  width: 340px;
+  height: 102px;
+  background-color: rgb(255, 150, 150); /* 빨간색 */
+  border-radius: 5px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.texta3 {
+  color: rgb(241, 95, 95);
+  font-size: 20px;
+  padding-left: 12px;
+  display: inline-block; /* 인라인 요소를 블록 요소로 변경합니다. */
+  margin-top: 10px; /* 텍스트를 아래로 10px 이동합니다. */
+}
+
+.rectanglea4 {
+  width: 340px;
+  height: 102px;
+  background-color: rgb(255, 150, 150); /* 빨간색 */
+  border-radius: 5px; /* 모든 모서리를 둥글게 만듭니다. */
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.texta4 {
+  color: rgb(241, 95, 95);
+  font-size: 20px;
+  padding-left: 12px;
+  display: inline-block; /* 인라인 요소를 블록 요소로 변경합니다. */
+  margin-top: 10px; /* 텍스트를 아래로 10px 이동합니다. */
+}
+
+.fimage1 {
+  margin-top: -36.5px;
+  margin-left: 9px;
+}
+.fimage2 {
+  margin-top: -36.5px;
+  margin-left: 9px;
+}
+
+.fimage3 {
+  margin-top: -36.5px;
+  margin-left: 9px;
+}
+
+.fimage4 {
+  margin-top: -36.5px;
+  margin-left: 9px;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center; /* 인디케이터를 가운데로 정렬합니다. */
+}
+
+.nav-container {
+  background-color: black;
+  padding: 12px 0; /* 위아래 여백을 설정합니다. */
+
+  border-top: 1px solid lightgray; /* 상단에 흰색 선을 추가합니다. */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-container a:hover {
+  text-decoration: underline;
+}
+
+.nav-container img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-container span {
+  font-size: 12px;
+  display: block; /* 글자를 세로로 배치합니다 */
+}
+
+.home-indicator {
+  display: block; /* 홈 인디케이터를 활성화합니다. */
+}
